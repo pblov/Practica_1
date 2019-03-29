@@ -1,0 +1,39 @@
+@media only screen and (max-width: 700px){
+	.secciones{
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows:200px 200px 200px 200px 200px 200px;
+	grid-row-gap: 20px;
+	justify-content: center;
+}
+.seccion1{ /* Base, de datos*/
+	grid-column: 1;
+	grid-row: 2;
+}
+.seccion4{/*Horario*/
+	grid-column: 1;
+	grid-row:1;
+}
+.seccion5{/*Recursos*/
+	grid-row:3;
+	grid-column: 1;
+}
+.seccion3{/*Novedades*/
+	grid-row:4;
+	grid-column: 1;
+}
+.seccion6{/* Feedback Studio*/
+	grid-row:5;
+	grid-column: 1;
+}
+
+.seccion8{/*Memoristas*/
+	grid-row:6;
+	grid-column: 1;
+	
+}
+}

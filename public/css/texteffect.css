@@ -1,0 +1,145 @@
+.secciones .seccion5 h2{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	transition: 100ms;
+	z-index: 2;
+}
+.secciones .seccion5 p{
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+	z-index: 2;
+	display: none;
+	transition: 5s top;
+}
+.secciones .seccion5:hover h2{
+	top: 20%;
+}
+.secciones .seccion5:hover p{
+	display: inline;
+}
+
+/************************************************************************************************************/
+.secciones .seccion1 h2{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	transition: 100ms;
+	z-index: 2;
+}
+.secciones .seccion1 p{
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+	z-index: 2;
+	display: none;
+	transition: 5s top;
+}
+.secciones .seccion1:hover h2{
+	top: 20%;
+}
+.secciones .seccion1:hover p{
+	display: inline;
+}
+
+/************************************************************************************************************/
+.secciones .seccion3 h2{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	transition: 100ms;
+	z-index: 2;
+}
+.secciones .seccion3 p{
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+	z-index: 2;
+	display: none;
+	transition: 5s top;
+}
+.secciones .seccion3:hover h2{
+	top: 20%;
+}
+.secciones .seccion3:hover p{
+	display: inline;
+}
+
+/************************************************************************************************************/
+.secciones .seccion8 h2{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	transition: 100ms;
+	z-index: 2;
+}
+.secciones .seccion8 p{
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+	z-index: 2;
+	display: none;
+	transition: 5s top;
+}
+.secciones .seccion8:hover h2{
+	top: 20%;
+}
+.secciones .seccion8:hover p{
+	display: inline;
+}
+
+/************************************************************************************************************/
+.secciones .seccion6 h2{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	transition: 100ms;
+	z-index: 2;
+}
+.secciones .seccion6 p{
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+	z-index: 2;
+	display: none;
+	transition: 5s top;
+}
+.secciones .seccion6:hover h2{
+	top: 20%;
+}
+.secciones .seccion6:hover p{
+	display: inline;
+}
+
+/************************************************************************************************************/

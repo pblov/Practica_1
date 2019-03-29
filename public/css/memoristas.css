@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+.memo-header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url("../images/memo2.jpg");
+    background-size: cover;
+}
+.memo-header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+
+
+
+.re-contenedor{
+    margin-top:100px;
+    margin-left:20%;
+    margin-right:10%;
+
+}
+
+.memo-welcome{
+	width: 100%;
+	text-align: center;
+	height: auto;
+	margin-top: 50px;
+}
+.memo-lane{
+	width: 50%;
+	margin:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 1px;
+	background: black;
+}
+.memo-welcome h2{
+	margin-bottom: 20px;
+}
+.memo-welcome p {
+	font-size: 18px;
+	width: 60%;
+	margin:auto;
+}
+
+
+.me-boton{
+	font-weight: 600;
+    width:100%;
+    background-color:rgb(2, 65, 160);
+    color: rgb(241, 241, 241);
+    border:none;
+    outline:none;
+    text-align: left;
+    padding: 10px 15px;
+    font-size:17px;
+    cursor:pointer;
+	transition: background-color 0.2s linear;
+	border-bottom:1px solid rgb(21, 81, 138);
+}
+
+.me-boton::after{
+    content:"\f107";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+	float:right;
+	
+    
+}
+
+.me-boton.is-open::after{
+	content: "\f106";
+	
+}
+
+.me-boton:hover , .me-boton.is-open{
+    background-color:rgb(163, 139, 1);
+}
+
+
+.re-ac-contenido{
+	
+	background:rgb(228, 228, 228);
+	padding:0px 20px;
+	border-left: 1px solid whitesmoke;
+	border-right: 1px solid whitesmoke;
+	max-height: 0;
+	overflow:hidden;
+	transition: max-height 0.2s ease-in-out;
+
+ }
+ 
+ .re-ac-contenido p{
+    font-size: 16px;
+}
+
+.re-ac-contenido ul{
+	padding-left:30px;
+	font-size:16px;
+	list-style-type: none;
+}
+
+.re-ac-contenido a{
+	text-decoration:none;
+	color:rgb(0, 132, 255);
+}
+
+
+

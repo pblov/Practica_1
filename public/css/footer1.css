@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+footer{
+width: 100%;
+background:#000332; 
+border-top:3px solid #FFCC33;
+margin-top:70px;
+}
+
+div.fo-container{
+   
+    
+    padding-top:30px;
+    margin: auto;
+    margin-top:50px;
+    width:80%;
+
+    
+}
+
+.sec1{
+    
+    text-align:center;
+    display:grid;
+    grid-column-gap: 1em;
+    margin:auto;
+    grid-template-columns: 30% 30% 39%;
+    width:100%;
+    justify-content:center;
+    
+    
+}
+
+.fo-contenido{
+    
+}
+.fo-contenido h4{
+    color:rgb(233, 233, 233);
+}
+.fo-contenido ul{
+    list-style-type: none;
+}
+
+.fo-contenido ul li{
+    padding-top: 13px;
+}
+.fo-contenido ul li a{
+    font-size:14px;
+    color:rgb(223, 223, 223);
+}
+
+.fo-contenido img{
+        height: 100px;
+        margin-top:55px;
+}
+
+#iconos i{
+    
+    padding-top:25px;
+    color:#FFF;
+    transition: .3s ease;
+}
+
+
+#fb:hover{
+    cursor:pointer;
+    color:blue;
+    transform:translateY(-6px);
+}
+
+#tw:hover{
+    cursor:pointer;
+    color: #0CA2DC;
+    transform:translateY(-6px);
+}
+
+#yt:hover{
+    cursor:pointer;
+    color: red;
+    transform:translateY(-6px);
+}
+
+#insta:hover{
+    cursor:pointer;
+    color: rgb(175, 79, 14);
+    transform:translateY(-6px);
+}
+
+#in:hover{
+
+    cursor:pointer;
+    color: #2467E0;
+    transform:translateY(-6px);
+}
+
+
+
+@media only screen and (max-width:740px ){
+    .sec1{
+        grid-template-columns: 100%;
+        grid-template-row:auto auto;
+        height:auto;
+    }
+    
+}

@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+.servicios-head{
+	width: 100%;
+	height: 300px;
+	background: url("../images/bibliotecario.jpg");
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.servicios-head::before{
+	content: "";
+	width: 100%;
+	height: 300px;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+}
+.servicios-seccion{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	grid-template-rows: 300px 300px;
+	grid-gap: 20px 10px;
+}
+.servicios-seccion a{
+	text-decoration: none;
+	color: black;
+}
+.servicios-seccion a:hover{
+	text-decoration: none;
+	color: black;
+}
+.servicios-head-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+.servicios-head-card i{
+	transform: scale(3);
+}
+.servicios-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+}
+.servicios-card:hover{
+	background: #000332;
+	color: white;
+}
+.servicios-card:hover a, .servicios-card:hover i{
+	color: white;
+}
+
+.servicios-seccion .servicios-card{
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+	 color: black;
+}
+
+.servicios-head-card{
+	height: 250px;
+}
+
+.servicios-footer-card{
+	height: 48px;
+	position: relative;
+}
+.servicios-card:hover{
+	cursor: pointer;
+}
+
+/*************************************************SERVICIOS CONTENT**************************************/
+.servicios-content{
+	width: 80%;
+	margin:auto;
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+	grid-row-gap:30px;
+}
+.servicios-content-card{
+	 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.servicios-content-head{
+	background: #0040B0;
+	font-style: bold;
+	width: 100%;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+.servicios-content-info{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	font-size: 20px;
+	justify-content: center;
+}
+.servicios-content-info p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.servicios-card a{
+	list-style: none;
+	color: black;
+}
+.servicios-back{
+	position: relative;
+}
+.servicios-seccion-back{
+	position: fixed;
+	right: 10px;
+	bottom: 2px;
+	padding: 20px;
+	border: 1px solid #0040B0;
+	float: right;
+	font-size: 30px;
+	color: #0040B0;
+	background-color: #0040B0;
+	color: white;
+}
+.servicios-seccion-back:hover{
+	
+	color: #0040B0;
+	background:white;
+}

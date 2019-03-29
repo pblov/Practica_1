@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Oswald';
+}
+
+
+.re-header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url("../images/mivi.jpg");
+    background-size: cover;
+}
+.re-header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+.re-contenedor{
+    margin-top:100px;
+    margin-left:20%;
+    margin-right:10%;
+
+}
+
+.re-titulo{
+    margin-top:5%;
+    display:grid;
+    width:100%;
+    background:rgb(0, 81, 255);
+    grid-template-columns: auto;
+    margin-bottom:3%;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+    
+}
+
+.re-mision-vision{
+    display:grid;
+    margin:auto;
+    grid-template-columns: 45% 53%;
+    width:100%;
+ 
+    grid-column-gap:1em;
+}
+
+.vn{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.vn img{
+    width:100%;
+    height:auto;
+}
+.vn p{
+    padding:20px;
+    text-align:center;
+}
+
+
+
+.re-boton{
+    width:100%;
+    background-color:rgb(241, 241, 241);
+    color: rgb(0, 132, 255);
+    border:none;
+    outline:none;
+    text-align: left;
+    padding: 10px 15px;
+    font-size:17px;
+    cursor:pointer;
+    transition: background-color 0.2s linear;
+}
+
+.re-boton::after{
+    content:"\f107";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    float:right;
+    
+}
+
+.re-boton.is-open::after{
+    content: "\f106";
+}
+
+.re-boton:hover , .re-boton.is-open{
+    background-color:rgb(194, 194, 194);
+}
+
+.re-ac-contenido{
+   padding:0px 20px;
+   border-left: 1px solid whitesmoke;
+   border-right: 1px solid whitesmoke;
+   max-height: 0;
+   overflow:hidden;
+   transition: max-height 0.2s ease-in-out;
+}
+
+.re-ac-contenido p{
+    font-size: 15px;
+}
+
+.re-ac-contenido #cat-usuarios{
+    list-style-type:square;
+    padding-left:20px;
+    font-size:15px;
+}
+
+.re-ac-contenido table {
+    
+        width: 100%;
+        height: 300px;
+        text-align:center;
+        font-size:12px;
+        margin-bottom:10px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+}
+
+table ul{
+    list-style-type:none;
+}
+
+.re-ac-contenido ul{
+    padding-left:30px;
+}
+
+#cat-usuarios li{
+    text-decoration: underline;
+    color: rgb(1, 2, 58);
+}
+
+#cat-usuarios p{
+    font-size:15px;
+    margin-top:5px;
+}
+
+#tipo-prestamo{
+    font-size:15px;
+}
+
+#tipo-prestamo li{
+    text-decoration: underline;
+    color: rgb(35, 37, 158);
+}
+
+
+@media only screen and (max-width:1200px ){
+    #tabla1{
+        width:60%;
+        padding-bottom:100px; 
+    }
+}
+
+
+@media only screen and (max-width:740px ){
+    
+    .re-mision-vision{
+        height:auto;
+        grid-template-columns: 100%;
+        grid-template-row:auto auto;
+    }
+}

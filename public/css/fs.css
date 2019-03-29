@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+.fs-head{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url("../images/fshead.jpg");
+	background-size: cover;
+}
+.fs-head::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+}
+.fs-welcome{
+	height: auto;
+	font-size: 20px;
+}
+.fs-welcome{
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	margin-top: 50px;
+}
+.fs-lane{
+	height: 1px;
+	background-color: black;
+	width: 90%;
+	
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.fs-secciones{
+	display: grid;
+	width: 80%;
+	margin: auto;
+	grid-template-columns: 320px 320px;
+	grid-column-gap: 10px;
+	grid-row: auto;
+	grid-row-gap: 30px; 
+	grid-column-gap: 30px;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+.fs-seccion{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	text-align: center;
+}
+.fs-seccion-table{
+
+	width: 100%;
+	margin:auto;
+	text-align: center;
+}
+.fs-table{
+	width: 30%;
+	margin:auto;
+	margin-top: 50px;
+	text-align: left;
+}
+.fs-table p{
+	font-size: 10px;
+}
+.fs-table a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #0040B0;
+}
+.fs-link{
+	width: 200px;
+	margin:auto;
+	margin-top: 50px;
+}
+.fs-link button{
+	border: 2px solid #0040B0;
+	color: #0040B0;
+	background-color: white;
+	padding:20px;
+}
+.fs-link button:hover{
+	background: #0040B0;
+	color: white;
+	cursor: pointer;
+}
+@media only screen and (max-width: 750px){
+	.fs-secciones{
+		grid-template-columns: 400px;
+		grid-template-rows: auto auto;
+	}
+}
